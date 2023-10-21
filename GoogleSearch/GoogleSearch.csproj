@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\default_user_avatar.png" />
+    <None Remove="img\google_lens.png" />
+    <None Remove="img\google_logo.png" />
+    <None Remove="img\other_apps.png" />
+    <None Remove="img\search_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\default_user_avatar.png" />
+    <Resource Include="img\google_lens.png" />
+    <Resource Include="img\google_logo.png" />
+    <Resource Include="img\other_apps.png" />
+    <Resource Include="img\search_icon.png" />
+  </ItemGroup>
+
+</Project>
